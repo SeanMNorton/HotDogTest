@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import FullPage from '../../components/UI/FullPage/FullPage';
 import logo from '../../assets/images/dog-icon.png';
 import Button from '../../components/UI/Button/Button';
+import InfoRow from '../../components/InfoRow/InfoRow';
+
+import image1 from '../../assets/images/main-dog-1.png';
 
 class InfoPage extends Component {
     headerStyle = {
@@ -15,11 +18,19 @@ class InfoPage extends Component {
     }
     render() {
         return (
-            <FullPage heightPercent="60">
-                <img src={logo} alt="hot dog logo"/>
-                <h1 style={this.headerStyle}>Dirty Dogs serves all-beef, vegan and vegatarian hot dogs.</h1>
-                <Button type="Primary">More Dogs'n Make Em Hot</Button>
-            </FullPage>
+            <>
+                <FullPage heightPercent="60">
+                    <img src={logo} alt="hot dog logo"/>
+                    <h1 style={this.headerStyle}>Dirty Dogs serves all-beef, vegan and vegatarian hot dogs.</h1>
+                    <Button type="Primary">More Dogs'n Make Em Hot</Button>
+                </FullPage>
+                <InfoRow 
+                    header="Gormet All Beef Hotdogs" 
+                    text="Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum." 
+                    imgSrc={image1}
+                    reverse={false}
+                />
+            </>
         )
     }
 }

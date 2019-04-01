@@ -1,0 +1,85 @@
+.Row {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100vw;
+}
+
+.RowReverse {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 70vh;
+    width: 100vw;
+}
+
+.Column {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.TextArea {
+    max-width: 100vw;
+    text-align: center;
+    padding: 10px;
+}
+.TextArea p {
+    font-family: 'Open Sans';
+    font-weight: '100';
+}
+
+.TextArea h2 {
+    font-family: sans-serif;
+}
+
+
+@media(min-width: 800px ) {
+    .Row {
+        flex-direction: row;
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .RowReverse {
+        flex-direction: row-reverse;
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .Column {
+        width: 50vw;
+        height: 100%;
+    }  
+    
+    .TextArea {
+        text-align: left;
+        padding: 20px
+    }
+}
+
+@media(min-width: 989px ) {
+    .Row {
+        flex-direction: row;
+        height: 70vh;
+        width: 100vw;
+    }
+
+    .RowReverse {
+        flex-direction: row-reverse;
+        height: 70vh;
+        width: 100vw;
+    }
+
+    .Column {
+        width: 50vw;
+        height: 100%;
+    }   
+
+    .TextArea {
+        max-width: 60%;
+    }
+}
