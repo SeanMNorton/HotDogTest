@@ -10,10 +10,7 @@ import hotdog7 from '../../assets/images/hotdog-7.jpg';
 import hotdog8 from '../../assets/images/hotdog-8.jpg';
 import instaLogo from '../../assets/images/insta-logo.png';
 
-
 import classes from './Header.module.css';
-
-
 
 
 const Header = () => {
@@ -26,10 +23,11 @@ const Header = () => {
 
  return (
     <div className={classes.Header}>
-        <p className={classes.InstaTag}>
+
+        <a  href="https://www.instagram.com/explore/tags/hotdogs/?hl=en" target="_blank" className={classes.InstaTag}>
             <img className={classes.InstaLogo} src={instaLogo}/>
-            <a href="https://www.instagram.com/explore/tags/hotdogs/?hl=en" target="_blank">#hotdogs</a>
-        </p>
+            #hotdogs
+        </a>
 
         <div className={classes.HeaderOverlay}></div>
         <div className={[classes.row, classes.overlay].join(' ')}>{row1}</div>
