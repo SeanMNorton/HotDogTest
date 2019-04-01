@@ -24,8 +24,8 @@ const Header = () => {
  return (
     <div className={classes.Header}>
 
-        <a  href="https://www.instagram.com/explore/tags/hotdogs/?hl=en" target="_blank" className={classes.InstaTag}>
-            <img className={classes.InstaLogo} src={instaLogo}/>
+        <a href="https://www.instagram.com/explore/tags/hotdogs/?hl=en" target="_blank" className={classes.InstaTag}>
+            <img className={classes.InstaLogo} src={instaLogo} alt="Instagram Logo"/>
             #hotdogs
         </a>
 

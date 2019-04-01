@@ -7,9 +7,8 @@ const Navigation = () => {
         <div className={classes.NavBar}>
             <a href="/"> Menu </a>
             <a href="/"> Catering </a>
-            <a href="/"> About Us </a>
+            <a href="/"> About Us</a>
             <a href="/"> Contact </a>
-
         </div>
     );
 }
