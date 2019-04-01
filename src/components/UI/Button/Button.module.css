@@ -1,0 +1,26 @@
+.Button {
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-size: 1em;
+    font-weight: 400;
+}
+.Button:hover {
+    cursor: pointer;
+}
+
+.Primary {
+    background-color: rgba(40, 103, 130);
+}
+.Primary:hover {
+    background-color: rgb(35, 90, 114);
+}
+
+/* Danger button not needed in this case, but could be useful later */
+.Danger {
+    background-color: rgba(225, 101, 90);
+}
+.Danger:hover {
+    background-color: rgb(209, 93, 83);
+}

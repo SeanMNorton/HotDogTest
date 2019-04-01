@@ -3,13 +3,12 @@ import React from 'react';
 const FullPage = (props) => {
     const style = {
         width: '100vw',
-        height: '90vh',
+        height: `${props.heightPercent}vh`,
         backgroundColor: 'rgb(248, 248, 248)',
         display: 'flex',
         flexDirection: 'column',
+        justifyContent: 'center',
         alignItems: 'center',
-        boxSizing: 'border-box',
-        padding: '10vh 5vw'
     }
     return (
         <div style={style}>
