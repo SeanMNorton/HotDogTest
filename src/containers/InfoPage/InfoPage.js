@@ -28,6 +28,7 @@ class InfoPage extends Component {
                     <h1 style={this.headerStyle}>Dirty Dogs serves all-beef, vegan and vegatarian hot dogs.</h1>
                     <Button type="Primary">More Dogs'n Make Em Hot</Button>
                 </FullPage>
+                {/* this could be broken out into it's own component: maybe infoDetails where that folder would hold infoRow */}
                 <InfoRow 
                     header="Gormet All Beef Hotdogs" 
                     text="Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum." 

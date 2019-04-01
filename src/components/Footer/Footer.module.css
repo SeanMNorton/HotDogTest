@@ -1,0 +1,10 @@
+.Footer {
+    background-color: rgba(239, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Open Sans';
+    font-weight: 'lighter';
+    color: rgb(65, 65, 65);
+    font-size: 0.7em;
+}

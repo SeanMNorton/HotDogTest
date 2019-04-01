@@ -13,7 +13,6 @@ const InfoRow = (props) => {
     const dashStyle = {
         fontFamily: 'Open Sans',
         fontWeight: '100',
-        color: 'lightblue'
     }
 
     let reverseClass = null;

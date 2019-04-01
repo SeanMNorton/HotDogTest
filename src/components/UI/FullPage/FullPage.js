@@ -9,6 +9,7 @@ const FullPage = (props) => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
+        marginBottom: '20px',
     }
     return (
         <div style={style}>
