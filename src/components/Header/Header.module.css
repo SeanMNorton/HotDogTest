@@ -32,18 +32,14 @@
     min-width: 100px;
     overflow: hidden;
 }
-.InstaTag {
+.InstaTag, .InstaTag:hover, .InstaTag:active, .InstaTag:visited {
     font-size: 1em;
     display: flex;
     position: absolute;
     top: 10px;
     right: 10px;
-    color: white;
     align-items: center;
     z-index: 100;
-}
-
-a, a:hover, a:active, a:visited{
     color: white;
     text-decoration: none;
 }

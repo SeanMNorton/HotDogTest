@@ -1,8 +1,16 @@
 import React from 'react';
 
+import classes from './Navigation.module.css';
+
 const Navigation = () => {
     return (
-        <h1>Navigation Comp Rendered</h1>
+        <div className={classes.NavBar}>
+            <a href="/"> Menu </a>
+            <a href="/"> Catering </a>
+            <a href="/"> About Us </a>
+            <a href="/"> Contact </a>
+
+        </div>
     );
 }
 
