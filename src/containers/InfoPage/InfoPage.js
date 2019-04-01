@@ -6,6 +6,10 @@ import Button from '../../components/UI/Button/Button';
 import InfoRow from '../../components/InfoRow/InfoRow';
 
 import image1 from '../../assets/images/main-dog-1.png';
+import image2 from '../../assets/images/main-dog-2.png';
+import image3 from '../../assets/images/main-dog-3.png';
+
+
 
 class InfoPage extends Component {
     headerStyle = {
@@ -28,6 +32,18 @@ class InfoPage extends Component {
                     header="Gormet All Beef Hotdogs" 
                     text="Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum." 
                     imgSrc={image1}
+                    reverse={false}
+                />
+                <InfoRow 
+                    header="Vegan Hotdogs" 
+                    text="Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum." 
+                    imgSrc={image2}
+                    reverse={true}
+                />
+                <InfoRow 
+                    header="Vegitarian Hotdogs" 
+                    text="Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum." 
+                    imgSrc={image3}
                     reverse={false}
                 />
             </>

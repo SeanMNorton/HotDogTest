@@ -5,20 +5,30 @@ import classes from './InfoRow.module.css';
 const InfoRow = (props) => {
     const imgStyle = {
         background: `url(${props.imgSrc})`,
+        backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
     }
 
-    let rowClass = classes.Row;
+    const dashStyle = {
+        fontFamily: 'Open Sans',
+        fontWeight: '100',
+        color: 'lightblue'
+    }
+
+    let reverseClass = null;
     if(props.reverse) {
-        rowClass = classes.RowReverse
+        reverseClass = classes.RowReverse
     }
     
     return (
-        <div className={rowClass}>
+        <div className={[reverseClass, classes.Row].join(' ')}>
             <div className={classes.Column}>
                 <div className={classes.TextArea}>
-                    <h2>{props.header}</h2>
+                    <h2>
+                        <span style={dashStyle}>&mdash; &nbsp;</span> 
+                        {props.header}
+                    </h2>
                     <p>{props.text}</p>
                 </div>
             </div>
