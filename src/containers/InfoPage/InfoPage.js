@@ -5,9 +5,9 @@ import logo from '../../assets/images/dog-icon.png';
 import Button from '../../components/UI/Button/Button';
 import InfoRow from '../../components/InfoRow/InfoRow';
 
-import image1 from '../../assets/images/main-dog-1.png';
-import image2 from '../../assets/images/main-dog-2.png';
-import image3 from '../../assets/images/main-dog-3.png';
+import image1 from '../../assets/images/main-dog-1.jpg';
+import image2 from '../../assets/images/main-dog-2.jpg';
+import image3 from '../../assets/images/main-dog-3.jpg';
 
 
 
